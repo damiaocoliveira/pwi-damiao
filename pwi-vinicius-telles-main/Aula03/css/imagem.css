@@ -1,0 +1,16 @@
+.dimensao{
+    width: 550px;
+}
+
+img{
+    border: solid 10px;
+    color: rgba(255, 0, 128, 0.274);
+}
+
+#kitana{
+    width: 550px;
+    border: solid 10px;
+    color: rgb(63, 63, 119);
+    border-radius: 5px;
+}
+

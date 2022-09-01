@@ -1,0 +1,20 @@
+img{
+    border: solid 10px;
+    color: aqua;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: justify;
+}
+
+#pragrafoPrincipal{
+    color: red;
+
+}
+
+#kenryu{
+    width: 100%;
+}
+
