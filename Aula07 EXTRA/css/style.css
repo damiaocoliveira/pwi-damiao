@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+#cabecalho{
+    width: 80%;
+    margin: 10px auto;
+}
+
+#logo-cabecalho {
+    color: white;
+    padding: 5em;
+    line-height: 2.1em;
+    background: rgb(40, 67, 221);
+}
+
+#menu-cabecalho {
+    background: rgba(255, 228, 177, 0.486);
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+li{
+    display: inline-flex;
+    flex-direction: column;
+    
+    margin: 0;
+    
+}
+
+li a {
+    padding: 10px 67px;
+    background: rgb(231, 67, 67);
+    color: white;
+    text-decoration: none;
+}
+
+fieldset{
+    margin-top: 20px;
+    width: 40%;
+    padding: 15px;
+}
+
+legend{
+    padding: 5px;
+}
