@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        #demo{
+            color: rgb(202, 25, 128);
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1{
+            color: orange;
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h2{
+            color: rgb(0, 153, 255);
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        p{
+            color: rgb(17, 0, 255);
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+
+    </style>
+
+</head>
+
+<body>
+
+
+<h1>JavaScript Strings</h1>
+<h2>The substring() Method</h2>
+
+<p>substring() extracts a part of a string:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "Java é... bom!!!";
+let result = text.substring(9, 0);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>

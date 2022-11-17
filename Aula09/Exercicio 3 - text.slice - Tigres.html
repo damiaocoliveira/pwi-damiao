@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3 - Tigres</title>
+
+
+    <style>
+        #demo{
+            color: rgb(255, 123, 0);
+            font-size: 90px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    p{
+        color: blue;
+    }
+    </style>
+
+</head>
+
+<body>
+<h1>Três pratos de trigo para três tigres tristes.</h1>
+
+<p>Deixando apenas parte do texto:</p>
+<p id="demo"></p>
+
+<script>
+let text = "Três pratos de trigo para três tigres tristes.";
+let part = text.slice(-9);
+document.getElementById("demo").innerHTML = part;
+</script>
+
+</body>
+
+</html>
